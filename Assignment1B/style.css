@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 227, 210);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container .card{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container #submit{
+    margin-top: 10px;
+}
+.container #submit:hover{
+    background-color: rgb(87, 231, 106);
+    color: black;
+}
