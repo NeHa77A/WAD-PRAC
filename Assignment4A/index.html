@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>JQuery Mobile</title>
+</head>
+<body>
+    <!--Index.html-->
+    <div data-role="page" id="home">
+        <div data-role="header">
+            <h1>Dhole Patil College of Engineering</h1>
+            <h4>Approved By AICTE , Permanently Affiliated to SPPU ,
+                <br> Pune, NAAC "A+" Grade</h4>
+        </div>
+    <!--Navbar-->
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#dept">Department</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <!--Contents-->
+        <div data-role="content">
+            <h3 style="color: blue;">Welcome To Dhole Patil College</h3>
+            <div class="container">
+                <img src="dpcoecoll.jpg" alt="College Image" class="centered-image">
+            </div>
+            <style>
+                .container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 30vh; /* Adjust this to the desired height of the container */
+                    }
+
+                    .centered-image {
+                    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+                    max-height: 100%; /* Ensure the image doesn't exceed its original size */
+                    }
+
+            </style>
+            <p style="text-align: justify;">Dhole Patil College of Engineering (DPCOE) is a premier Engineering and Management College in Pune, Maharashtra, India, and is among the top Engineering Colleges in Pune. DPCOE was founded in 2008 with the objective of providing quality technical education of international standards and to help students to match contemporary global requirements.</p>
+        </div>
+
+        <!--Footer-->
+        <center>
+        <div data-role="footer">
+            <h3>Quick Access</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#dept">Department</a>
+            <a href="#contact">contact</a>
+        </div>
+        </center>
+    </div>
+</body>
+</html>
